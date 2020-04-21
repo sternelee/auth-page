@@ -1,0 +1,24 @@
+{
+  "name": "auth-page",
+  "description": "用户webview的授权页面",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sternelee/auth-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sternelee/auth-page/issues"
+  },
+  "homepage": "https://github.com/sternelee/auth-page#readme"
+}
