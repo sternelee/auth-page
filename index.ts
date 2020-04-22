@@ -30,7 +30,7 @@ const getAuthorizationUrl = (
   redirectUri: string,
   codeChallenge: string
 ): string => {
-  return `${baseURL}/v1/auth/authorize?provider=${provider}&redirect_uri=${encodeURI(
+  return `${baseURL}/v1/auth/authorize?provider=${provider}&redirect_uri=${encodeURIComponent(
     redirectUri
   )}&code_challenge=${codeChallenge}`;
 };
