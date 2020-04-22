@@ -1,4 +1,4 @@
-const baseURL = "https://api.leeapps.cn/daily";
+const baseURL = "https://api.leeapps.cn/dialy";
 const redirectUri = "https://api.leeapps.cn/static/?auth=true";
 
 export interface CodeChallenge {
